@@ -1,12 +1,20 @@
 // Initialize AOS (Animate on Scroll)
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize AOS animation library
+    // Initialize AOS animation library with enhanced settings
     AOS.init({
-        duration: 800,
-        easing: 'ease',
-        once: true,
-        offset: 100
+        duration: 1000,
+        easing: 'ease-out',
+        once: false,
+        offset: 50,
+        delay: 100,
+        mirror: true, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom' // defines which position of the element regarding to window should trigger the animation
     });
+    
+    // Refresh AOS after 500ms to ensure all elements are properly initialized
+    setTimeout(function() {
+        AOS.refresh();
+    }, 500);
 
     // Navigation behavior
     const navbar = document.getElementById('navbar');
