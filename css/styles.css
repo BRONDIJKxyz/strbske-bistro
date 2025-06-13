@@ -540,6 +540,23 @@ footer {
 .copyright {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 5px;
+}
+
+.credits {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.credits a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.credits a:hover {
+    color: var(--gold);
+    text-decoration: underline;
 }
 
 /* Responsive Design */
