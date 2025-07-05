@@ -152,7 +152,7 @@ section {
 }
 
 .logo-img {
-    height: 40px;
+    height: 24px; /* Match original text size (1.2rem) */
     width: auto;
 }
 
@@ -234,9 +234,8 @@ section {
 }
 
 .bistro-logo {
-    max-width: 350px;
-    width: 100%;
-    height: auto;
+    height: 80px; /* Match original text size (4rem) */
+    width: auto;
     margin-bottom: 10px;
     display: block;
     margin-left: auto;
@@ -523,7 +522,7 @@ footer {
 }
 
 .footer-logo-img {
-    height: 35px;
+    height: 20px; /* Match original footer text size */
     width: auto;
 }
 
