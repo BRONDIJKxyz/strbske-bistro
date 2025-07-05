@@ -152,7 +152,7 @@ section {
 }
 
 .logo-img {
-    height: 24px; /* Match original text size (1.2rem) */
+    height: 45px; /* Increased size for better visibility */
     width: auto;
 }
 
@@ -213,14 +213,7 @@ section {
 }
 
 .mountain-line {
-    position: absolute;
-    left: 0;
-    top: 45%;
-    width: 140px;
-    height: 100px;
-    background: url('../images/mountain-line.svg') no-repeat;
-    background-size: contain;
-    transform: translateX(-180px);
+    display: none; /* Hide the mountain line as requested */
 }
 
 .bistro-name {
@@ -535,11 +528,7 @@ footer {
 }
 
 .mountain-line-small {
-    width: 40px;
-    height: 30px;
-    background: url('../images/mountain-line-white.svg') no-repeat;
-    background-size: contain;
-    margin: 0 auto 10px;
+    display: none; /* Hide the footer mountain line as well */
 }
 
 .social-links {
