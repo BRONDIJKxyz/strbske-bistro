@@ -183,7 +183,7 @@ section {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    padding-top: 70px;
+    padding-top: 0;
 }
 
 .mountain-bg {
@@ -202,10 +202,20 @@ section {
     position: relative;
     z-index: 1;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-end; /* Align to bottom */
+    padding-bottom: 100px; /* Space from bottom */
+    padding-top: 0;
+}
+
+.hero-spacer {
+    display: none; /* Remove the spacer completely */
 }
 
 .logo-container {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .logo-large {
@@ -227,12 +237,10 @@ section {
 }
 
 .bistro-logo {
-    height: 400px; /* Extremely large size */
+    height: 500px; /* Even larger size */
     width: auto;
-    margin-bottom: 40px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .tagline {
